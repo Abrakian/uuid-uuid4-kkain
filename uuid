@@ -1,0 +1,10 @@
+import java.util.UUID;
+
+fun main() {
+    // Generate a random UUID
+    val myUuid = UUID.randomUUID()
+    val myUuidAsString = myUuid.toString()
+
+    // Print the UUID
+    println("Generated UUID: $myUuid")
+}
