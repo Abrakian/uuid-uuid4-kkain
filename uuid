@@ -1,10 +1,5 @@
-import java.util.UUID;
+import uuid
 
-fun main() {
-    // Generate a random UUID
-    val myUuid = UUID.randomUUID()
-    val myUuidAsString = myUuid.toString()
+myuuid = uuid.uuid4()
 
-    // Print the UUID
-    println("Generated UUID: $myUuid")
-}
+print('Your UUID is: ' + str(myuuid))
